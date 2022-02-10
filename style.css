@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  padding: 32px;
+  padding: 24px;
   margin: 0 auto;
   max-width: 100%;
   width: 1200px;
@@ -19,6 +19,10 @@ h1,
 h2,
 h4 {
   font-family: "raleway", sans-serif;
+}
+
+h1 {
+  color: hsl(243, 87%, 12%);
 }
 
 .green {
@@ -32,6 +36,7 @@ img {
 .split {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 80px;
 }
 
 .split > div,
@@ -104,15 +109,17 @@ button {
 .grayish-blue {
   background-color: hsl(240, 75%, 98%);
   position: relative;
-  margin-top: 100px;
+  margin-top: 150px;
   padding: 50px 0;
 }
 
+.grayish-blue h1 {
+  font-size: 32px;
+}
 .grayish-blue::before {
   content: "";
   background-image: url("/images/bg-curve-desktop.svg");
   background-size: cover;
-  background-position: center center;
   position: absolute;
   top: -60px;
   left: 0;
